@@ -24,16 +24,3 @@ async def hi(ctx):
   
   
 bot.run(os.environ['BOT_TOKEN'])
-
-language: python
-python:
-  - "3.5.2"
-install:
-  - pip install -r requirements.txt
-script:
-  - python -m compileall ./red.py
-  - python -m compileall ./cogs
-  - python ./red.py --no-prompt --no-cogs --dry-run
-cache: pip
-notifications:
-  email: false
