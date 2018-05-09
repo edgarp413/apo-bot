@@ -6,7 +6,7 @@ import os
 
 
 
-bot = commands.Bot(command_prefix="a.")
+bot = commands.Bot(command_prefix=".sgg")
 
 
 
