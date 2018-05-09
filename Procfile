@@ -1,1 +1,1 @@
-worker: python apo.py
+worker: python bot.py
