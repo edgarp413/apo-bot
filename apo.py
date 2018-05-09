@@ -1,4 +1,3 @@
-py
 import discord
 import asyncio
 
